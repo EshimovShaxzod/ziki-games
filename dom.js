@@ -30,6 +30,7 @@ clickImg.addEventListener('click', () => {
     }else if(random === 1){
         addImg.src ="./img/Group 8 Copy.png";
         demo.innerText = 'YOU WIN';
+        index.textContent++;
     }else if(random === 2){
         addImg.src ="./img/Group 8.png";
         demo.innerHTML = 'YOU LOST';
@@ -54,6 +55,7 @@ variableImg.addEventListener('click', () => {
     }else if(random === 2){
         addImg.src = "./img/Group 8.png";
         demo.innerHTML = 'YOU WIN';
+        index.textContent++;
     }
 });
 
@@ -70,6 +72,7 @@ bottomImg.addEventListener('click', () => {
     }else if(random ===1){
         addImg.src ="./img/Group 8 Copy 2 (1).png";
         demo.innerHTML = 'YOU WIN';
+        index.textContent++;
     }else if(random === 2){
         addImg.src = "./img/Group 8 Copy.png";
         demo.innerHTML = 'YOU LOST';
@@ -80,7 +83,6 @@ bottomImg.addEventListener('click', () => {
 btn.addEventListener('click', () => {
     mainBox.style.display = 'block';
     additionalBox.style.display = 'none';
-    index.textContent++;
 });
 
 
